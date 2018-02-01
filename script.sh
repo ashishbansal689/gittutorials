@@ -1,7 +1,7 @@
 #!/bin/bash
 echo -e 'Checking the current status of the project\n'
 STRING=`git status`
-echo $STRING
+
 if [[ "$STRING" == *"Changes"* ]]
 then
 	echo -e 'Some changes found\n'
