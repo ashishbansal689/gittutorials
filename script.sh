@@ -17,3 +17,4 @@ then
 else
 	echo 'There is nothing to commit'
 fi
+echo 'sdfasd'
