@@ -15,5 +15,5 @@ then
 	`git push origin $CURRENT_BRANCH`
 	echo 'File has been sycned with server successfully'
 else
-	echo 'There is nothing to commit'
+	echo 'No new changes found to commit'
 fi
